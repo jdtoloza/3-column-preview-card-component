@@ -1,0 +1,82 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+
+.deck {
+    display:flex;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.card {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    gap:25px;
+    /* border:solid black 3px; */
+    width:300px;
+    height: 470px;
+    color:hsla(0, 0%, 100%, 0.75);
+    padding: 50px;
+
+}
+
+.sedans {
+    background:hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background:hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background:hsl(179, 100%, 13%);
+}
+
+h2 {
+    font-family:'Big Shoulders Display';
+    color:hsl(0, 0%, 95%);
+    font-size:32px;
+    text-transform:uppercase;
+}
+
+p {
+    font-family:'Lexend Deca';
+    font-weight:400;
+    font-size:15px;
+    line-height:25px;
+}
+
+button {
+    margin-top:50px;
+    align-self:flex-start;
+    padding: 12px 27px;
+    border-radius:25px;
+    border:none;
+    font-family:'Lexend Deca';
+    font-size:15px;
+    cursor:pointer;
+}
+
+.sedans button {
+    color:hsl(31, 77%, 52%);
+}
+
+.suvs button {
+    color:hsl(184, 100%, 22%);
+}
+
+.luxury button {
+    color:hsl(179, 100%, 13%);;
+}
+
